@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name"> Name </label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role"> Role </label>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email"> Email</label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date"> Date </label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus</label>
+            <input type="number" name="myNumber" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="checkbox">Are you Eligible? </label>
+            <input type="checkbox" name="myCheckbox" id="checkbox">
+        </div>
+        <br>
+        <div>
+            <label for="radio">Gender: </label>
+            Male <input type="radio" name="myGender" id="radio">
+            Female <input type="radio" name="myGender" id="radio">
+            others<input type="radio" name="myGender" id="radio">
+        </div>
+        <br>
+        <div>
+            <label for="aboutYourself"> Write About Yourself : </label>
+            <br> <textarea name="aboutyourself" id="aboutYourself" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car"> Select Car for Yourself: </label>
+            <select name="myCar" id="car">
+                <option value="hyundai">Hyundai</option>
+                <option value="Tesla" selected>Tesla</option>
+                <option value="BMW">BMW</option>
+                <option value="Lamborgini">Lamborgini</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
